@@ -53,7 +53,7 @@ public class SysLocadoraView {
 		try {
 			salvarArquivo();
 		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "Ops");
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro ao ler/gravar objetos");
 		}
 	}
 
