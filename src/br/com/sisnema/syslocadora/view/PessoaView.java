@@ -1,16 +1,13 @@
 package br.com.sisnema.syslocadora.view;
 
 import java.util.ArrayList;
-
 import javax.swing.JOptionPane;
-
 import br.com.sisnema.syslocadora.model.Pessoa;
 
 public class PessoaView {
 
 	public static void run(ArrayList<Pessoa> clientes) {
 		int opc = -1;
-
 		do {
 			try {
 				opc = Integer.parseInt(JOptionPane.showInputDialog(getMenu()));
